@@ -195,7 +195,7 @@ class ViewController: UIViewController {
     }
     
     func checkAccountEmpty(balls: Int) -> Bool {
-        return balls == 0
+        return balls <= 0
     }
 }
 
