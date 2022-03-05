@@ -13,6 +13,9 @@
 		0B0F17E527D1F55000DCDBDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F17E327D1F55000DCDBDB /* Main.storyboard */; };
 		0B0F17E727D1F55200DCDBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F17E627D1F55200DCDBDB /* Assets.xcassets */; };
 		0B0F17EA27D1F55200DCDBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F17E827D1F55200DCDBDB /* LaunchScreen.storyboard */; };
+		0B0F181527D378FF00DCDBDB /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F181227D378FE00DCDBDB /* click.mp3 */; };
+		0B0F181627D378FF00DCDBDB /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F181327D378FE00DCDBDB /* intro.mp3 */; };
+		0B0F181727D378FF00DCDBDB /* gamestart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F181427D378FF00DCDBDB /* gamestart.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0B0F17E627D1F55200DCDBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B0F17E927D1F55200DCDBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B0F17EB27D1F55200DCDBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0F181227D378FE00DCDBDB /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		0B0F181327D378FE00DCDBDB /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
+		0B0F181427D378FF00DCDBDB /* gamestart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gamestart.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		0B0F17D127D1F55000DCDBDB = {
 			isa = PBXGroup;
 			children = (
+				0B0F181127D378D600DCDBDB /* mp3 */,
 				0B0F17DC27D1F55000DCDBDB /* OddEvenGame */,
 				0B0F17DB27D1F55000DCDBDB /* Products */,
 			);
@@ -65,6 +72,16 @@
 				0B0F17EB27D1F55200DCDBDB /* Info.plist */,
 			);
 			path = OddEvenGame;
+			sourceTree = "<group>";
+		};
+		0B0F181127D378D600DCDBDB /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F181227D378FE00DCDBDB /* click.mp3 */,
+				0B0F181427D378FF00DCDBDB /* gamestart.mp3 */,
+				0B0F181327D378FE00DCDBDB /* intro.mp3 */,
+			);
+			path = mp3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0F17EA27D1F55200DCDBDB /* LaunchScreen.storyboard in Resources */,
+				0B0F181527D378FF00DCDBDB /* click.mp3 in Resources */,
 				0B0F17E727D1F55200DCDBDB /* Assets.xcassets in Resources */,
 				0B0F17E527D1F55000DCDBDB /* Main.storyboard in Resources */,
+				0B0F181627D378FF00DCDBDB /* intro.mp3 in Resources */,
+				0B0F181727D378FF00DCDBDB /* gamestart.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
