@@ -37,6 +37,12 @@ class ViewController: UIViewController, SettingDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //다크모드지원하기 위한 배경색상 지정
+        self.view.backgroundColor = UIColor(named: "customBackground")
+        self.imageContainer.backgroundColor = UIColor(named: "customBackground")
+        self.userBallCountLbl.backgroundColor = UIColor(named: "customBackground")
+        self.resultLbl.backgroundColor = UIColor(named: "customBackground")
+        self.computerBallCountLbl.backgroundColor = UIColor(named: "customBackground")
         
         computerBallCountLbl.text = String(comBallsCount)
         userBallCountLbl.text = String(userBallsCount)
@@ -207,6 +213,10 @@ class ViewController: UIViewController, SettingDelegate {
     }
     
     func getBallsCount(ballsCount: Int) {
+        //설정한 값의 볼의 개수를 각 변수에 저장 
+        self.userBallsCount = ballsCount
+        self.comBallsCount = ballsCount
+        
         self.userBallCountLbl.text = "\(ballsCount)"
         self.computerBallCountLbl.text = "\(ballsCount)"
     }
